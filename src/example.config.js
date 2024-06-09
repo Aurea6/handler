@@ -7,7 +7,7 @@ const config = {
         guildId: 'Your bot development guild ID',
     },
     commands: {
-        prefix: '?', // For message commands, prefix is required. This can be changed by a database.
+        prefix: 't!', // For message commands, prefix is required. This can be changed by a database.
         message_commands: true, // If true, the bot will allow users to use message (or prefix) commands.
         application_commands: {
             chat_input: true, // If true, the bot will allow users to use chat input (or slash) commands.
@@ -16,13 +16,13 @@ const config = {
         }
     },
     users: {
-        ownerId: 'Your account ID', // The bot owner ID, which is you.
-        developers: ['Your account ID', 'Another account ID'] // The bot developers, remember to include your account ID with the other account IDs.
+        ownerId: '1177953362717704232', // The bot owner ID, which is you.
+        developers: ['1177953362717704232', '976413539076026388'] // The bot developers, remember to include your account ID with the other account IDs.
     },
     messages: { // Messages configuration for application commands and message commands handler.
-        NOT_BOT_OWNER: 'You do not have the permission to run this command because you\'re not the owner of me!',
-        NOT_BOT_DEVELOPER: 'You do not have the permission to run this command because you\'re not a developer of me!',
-        NOT_GUILD_OWNER: 'You do not have the permission to run this command because you\re not the guild owner!',
+        NOT_BOT_OWNER: 'Well it seems like you are unauthorized to use this command 🤷🏻‍♀️',
+        NOT_BOT_DEVELOPER: 'Well it seems like you are unauthorized to use this command 🤷🏻‍♀️ ',
+        NOT_GUILD_OWNER: 'Well it seems like you are not the owner of this guild',
         CHANNEL_NOT_NSFW: 'You cannot run this command in a non-NSFW channel!',
         MISSING_PERMISSIONS: 'You do not have the permission to run this command, missing permissions.',
         COMPONENT_NOT_PUBLIC: 'You are not the author of this button!',
