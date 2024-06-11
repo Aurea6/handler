@@ -46,9 +46,9 @@ class DiscordBot extends Client {
             ],
             presence: {
                 activities: [{
-                    name: 'keep this empty',
+                    name: 'Testing',
                     type: 4,
-                    state: 'DiscordJS-V14-Bot-Template v3'
+                    state: 'Busy busy'
                 }]
             }
         });
